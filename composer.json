@@ -1,0 +1,21 @@
+{
+    "name": "santacord/yii2-server",
+    "description": "Multi-server sistem",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "SantaCord",
+            "email": "feofanov-mv@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "santacord\\server\\": ""
+        }
+    }
+}
